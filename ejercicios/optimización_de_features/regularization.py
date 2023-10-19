@@ -35,7 +35,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
 
 if __name__ == "__main__" :
-    dataset = pd.read_csv("./data/felicidad_b0b50c6d-41dd-4ea8-a4f0-92a8068d4d3e.csv")
+    dataset = pd.read_csv("./../../data/felicidad_b0b50c6d-41dd-4ea8-a4f0-92a8068d4d3e.csv")
     
     #print(dataset.describe())
 
@@ -152,3 +152,4 @@ if __name__ == "__main__" :
 
         regr.fit(X, y)
     """
+
