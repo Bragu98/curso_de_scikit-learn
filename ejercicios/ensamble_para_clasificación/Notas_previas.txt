@@ -1,0 +1,24 @@
+    """
+        METODOS DE ENSAMBLE:
+
+        1. Combinar diferentes métodos de ML con
+        diferentes configuraciones y aplicar un método
+        para lograr un consenso.
+        2. La diversidad es una muy buena opción.
+        3. Los métodos de ensamble se han destacado por
+        ganar muchas competencias de ML.
+    """
+
+    """
+        Hay 2 tipos de estrategias
+        
+        1. BAGGING:
+        nos ofrece la opinion de varios metodos o "expertos" en paralelo y segun sus resultados nos genera un consenso 
+        algunos de los metodos mas comunes en bagging son (Random Forest, Voting Classifiers/Regressors, o cualquier otro modelo de ML )
+
+        2. BOOSTING 
+        en esta estrategia nos basaremos en utilizar varios modelos uno detras de otro y no en paralelo, 
+        esto quiere decir que aplicamos un modelo, y despues pasamos los resultados de este por otro modelo y asi susesivamente,
+        esto reduciendo el error cada vez que los resultados pasan por un nuevo modelo.
+        Algunos de los metodos mas utilizados son (adaboost, gradient tree boosting, XGBoost)
+    """
