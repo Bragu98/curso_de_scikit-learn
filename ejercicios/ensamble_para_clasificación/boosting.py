@@ -13,7 +13,7 @@ from sklearn.metrics import accuracy_score
 if __name__ == "__main__":
     
     dt_heart=pd.read_csv("./../../data/heart_bde64b4c-2d72-4cd3-a964-62ee94855f5b.csv")
-    print(dt_heart["target"].describe())
+    print(dt_heart.head(3))
 
     X= dt_heart.drop(['target'], axis= 1)
     Y= dt_heart["target"]
